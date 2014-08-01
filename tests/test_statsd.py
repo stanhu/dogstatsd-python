@@ -10,8 +10,8 @@ import time
 
 from nose import tools as t
 
-from statsd import DogStatsd
-import statsd
+from dogstatsd import DogStatsd
+import dogstatsd as statsd
 
 
 class FakeSocket(object):

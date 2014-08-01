@@ -20,7 +20,7 @@ dogstatsd-python
     set-up code and then other modules can import and use it without further
     configuration.
 
-    >>> from statsd import statsd
+    >>> from dogstatsd import statsd
     >>> statsd.connect(host='localhost', port=8125)
 
 Source
